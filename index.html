@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilham's Portfolio Website</title>
+    <!--= Google Fonts =-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+
+    <!--= Remixicons=-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--= SwiperJS CSS =-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!--= Main CSS =-->
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <!--= Navigasi =-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>IlhamCoding
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#aboutme" class="nav__link">About Me</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Pemrograman Web</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--= Fitur Utama =-->
+    <main class="main">
+        <!--= Pengalaman =-->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">M. Ilham Syahputra<br></h1>
+                        <h2 class="hero__title2">UI/UX Designer dan Web Developer.</h2>
+                        <p class="hero__description">Saya adalah seorang UI/UX Designer dan Web Developer berdomisili di Indonesia. Dengan pengalaman
+                            di bidang design ui/ux dan desain web, saya memiliki passion dalam menciptakan solusi digital yang unik, interaktif, dan fungsional.</p>
+                        <div class="hero__info">
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">08</p>
+                                <h2 class="hero__info-title">Tahun<br>Berpengalaman</h2>
+                            </div>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">30+</p>
+                                <h2 class="hero__info-title">Menyelesaikan<br>Project</h2>
+                            </div>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">120+</p>
+                                <h2 class="hero__info-title">Joki<br> Tugas</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__img-wrapper">
+                        <img src="portfolio.png" alt="M. Ilham Syahputra" class="hero__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--= About Me =-->
+        <section id="aboutme" class="section aboutme">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Tentang Saya</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">Saya seorang Desainer UI/UX dan Pengembang Web Profesional.</h3>
+                        <p class="about__description">Halo! Saya M. Ilham Syahputra, seorang designer ui/ux dan pengembang web yang tinggal di Indonesia.
+                            Saya sangat bersemangat menciptakan Desain yang Unik dan Interaktif.</p>
+                        <a href="#" class="btn btn--primary">Profile Saya!</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Skill yang dimiliki :</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Backend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Python</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        PHP</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Node.js</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MongoDB</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Frontend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        HTML</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        CSS</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        JavaScript</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Bootstrap</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        React</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+           <!--= Pengalaman =-->
+        <section id="qualification" class="section qualification">
+            <div class="container">
+                <!--= Professional Experience =-->
+                <div class="qualification__wrapper">
+                    <h3 class="qualification__name">
+                        <i class="ri-briefcase-fill"></i>
+                        Pengalaman Professional
+                    </h3>
+                    <div class="d-grid qualification__content">
+                        <!--= Experience 1 =-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Web Developer - Rakuten, Inc.</h3>
+                            <p class="qualification__description"> Bekerja di Rakuten, Inc., salah satu perusahaan e-commerce dan teknologi terbesar di Jepang.
+                                Berperan dalam pengembangan sistem web berbasis React.js dan Next.js.</p>
+                            <span class="qualification__date">Maret 2021 - Sekarang</span>
+                        </div>
+                        <!--= Experience 2 =-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Frontend Developer - LINE Corporation</h3>
+                            <p class="qualification__description"> Bekerja di LINE Corporation,
+                                perusahaan komunikasi dan teknologi terkemuka di Jepang,
+                                berkontribusi dalam pengembangan fitur web untuk LINE Web Apps.</p>
+                            <span class="qualification__date">2019 - 2021</span>
+                        </div>
+                        <!--= Experience 3 =-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">UI/UX Designer - NTT Data Corporation</h3>
+                            <p class="qualification__description"> Berkontribusi dalam proyek desain UI/UX di NTT Data Corporation, 
+                                perusahaan konsultasi digital terbesar di Jepang.</p>
+                                <br><br>
+                            <span class="qualification__date">2017 - 2019</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--= Pemrograman Web =-->
+        <section id="service" class="section service">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Pemrograman Web</h2>
+                    <span class="section__subtitle">Materi apa yang kita bahas?</span>
+                </div>
+                <div class="d-grid service__wrapper">
+                    <!--= service card 1 =-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACq0lEQVR4nO2ZOYgUURCGf0UDAxVNRAwEEbxSDQw08kxMZHNZvAKPTAPxwEjUQDdzNfTCzMSDDdR88T4STQyUZWWnqlc3cNFfXts7TA/Mm+53THfQH1Qy0/Oq/1d0/1VvgIaGhgYId0M4ASUrDeFEei/OCF9ULkLb8cxdiPJpDQQwi8c+FblVAwHMYtSnIhdqIIBpCM+5C0l4sHIB2o5hdyHCPTWqyC53IdPcVLkAzSLhBnchU1zaZ5euQjgUJJSXrLl+cAm8UGrPxVs85Ld4Ls8BixDxTyD8YKnIGYQi4SlLnnf+CWymKLyGUAivxDHDYqZ4N3etci+UN5xC+NGyYTf9hdhNcaxL9NH6mWExU3yDTlrcXz8znMO0z7136hs6SbgtUkV2whubKQpnQc5rX/uLqzyekb898yTc6C+kvyku985hzM6WY5KLEQSbKSZc772+cG1cMyxiigm3wxfl1rhmWMwULzv0VvmHV7nPUpEnCEb4STE/f5ueLcpkGH9SvJ9b3/RsUc0w3qQ4gk5MzxbVDIuZ4kMIl7VDebGvkO5dVt6JMxmWM8XnpasnPJL7jenZokyGZUzRvJo7IRdCuBnCY1DehvIzlF+hvAflCQi3pNd0onwdbzIsaorCSfgi/N5DSMt77cKmKPwDcoHzuqZXE/6Ob4bFjk/H0lnkJ1eiKNNcAeHh1PAGYoZlTNFURzme+c46dDPF1VCezITPFnhNjyI4bqb4Kn3VCs9C+bL074Xnwwup5vh0OLwQmynGCgkxGXZjprRBC0lCmuEc5HwI3w+wGm9zY3RQzMgpPJ4emAlnItz8DISP0hzBxtt+kIsg3JEdPo97CPiSHT4MDe7mbQjXZAb3AMrEuuv/feR0mNOR+NUyfxKNQPgpPQ4VXk8/M981NDQ0wJF/1aLNTsdSzJAAAAAASUVORK5CYII=" alt="html-5">
+                        </div>
+                        <h3 class="service__title">Pertemuan 1<br> HTML</h3>
+                        <a href="https://drive.google.com/file/d/1OBVdkpbXTERMJAvFV_gq88nlfzcj2Zjg/view" target="_blank" lass="service__link">Selanjutnya >></a>
+                    </div>
+                    <!--= service card 2 =-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuUlEQVR4nO2YS6hNURjHP2aUR0khDEyEiYzMDLgYmEoeGVySlMjAq7ySMPMYOQyUmZkUYSCFAUaepQwNrnvd863tuhH6a62zz+2cdey1915rfXcftf/1TU7rrG/993r81vqIatWqVYsYG4gxRAqoNBhDZizeYjyp3ISaiMf+RhQe9IEBpHE/ZEZu9IEBpNEImZHTfWAAJhgn/Y0k2F25ATURg/5GGBv7aEbW+xv5hhWVG1BpJFjmb2QUs3ISXCDG5iihcN6ZawQzKUgKypFgB8USY5sjD8dI8M6R4GAMD2mefY798SY8gRuKZymWGMdlYFgEioxnxDjiFV+xyMpz0ZHnergRKSg2sdLK05CBoTQUR7DQMnJbBoZt6euzhBFgmmXkoWNGBsKNlIVi65R75QzG8548Ci8y+0ywPNxIPhTttb/KKw/jY2afw5hBUeSGov311nga+SIHw2JQtGOTZ46fcjD0eSkytpbu/zOmy8JQ6qXIuEOd+o4FMi9DaSgybnb1r6/oojAsBsVDxFjSEccKGLlEnVJY7Tg8dlE0uaCob63dbbcXMHKi8EuUY8CwCBQZR7vaNrGWGD8c7X/3vGMYW2Rh2JYGUvYXPke2mphNCjuJcdccq4w/xHhKCgdoDPN62jP2ysMwH4pXySWFOTSG+c42CQ7LwzAPioxbFKqs9zrjbXDfpaDYMqmP6KWF+0swt2P5/ZKHYVkotk39a5OOYrHZJ3q/6H2T31+DossHinppKJwxJ5vCS4//n4pvpJry6WB8I1IvRfeMDMQ3otf8f1UmzRIwNV3zkzUbrwmYQiLSlGXsN8ciY1xg8OPEuGdyRCd6lnQVhLHOFLJbRQVfA59I4ZopZA9P1uBdal3h96T1qcT51RUemWpj1Auh3Gzpq/kVYnwgxntiXDa/2fWsWrVq1aIS+guMzcGHKrbScwAAAABJRU5ErkJggg==" alt="css3">
+                        </div>
+                        <h3 class="service__title">Pertemuan 2<br> CSS</h3>
+                        <a href="https://drive.google.com/file/d/1rkiOaQ6zCKM_ifL2CLsIQxs2EP_4pbZ9/view" target="_blank" class="service__link">Selanjutnya >></a>
+                    </div>
+                    <!--= service card 3 =-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACHklEQVR4nO2ZP2sUURTFDwZkFQUREUTsBAs7wX+sWIgg2FhoPoAgVoKIoAiCRsFCRdBvIGqTQgJJSsVGK8GAxMImEbQIonPvJKKF+pPZLOvs7E50NzD7ou/AbWbuffecue+9+5gnRURERPxbgDVKqcsYHoil1BsclgVnr5x3chiwzcrY038lwhBBSwzUeheSciAA8rRZNs16RjY/B03cC5ZxikI8gEp4rIjiGlGcWsQ1EvuI4vZL7COKRxSLh0Z6ODv9lPFaxmM5ozJeyPgazlnLuN82VnefcRnbO/ImbJAzIuN7+EKMMcGqJfM7J8MX4uxovUvYJWNSxnM55wpxr0IW8rmQZ7wQe0bG4aZNhCvE+CYYyuU5IuPNX447HI6QzFIOduRbYIucozJuyni7MoQY0/rEttLcMCTjcvhCFi2RcbtRnQ+sLeEwthKE5P2znjEl56pgdY7D6WqEJBxv+aecyiW81Xo+x7pC3JSMiw1zri05ZsKJqioy0vaL1bgr55G+sLX13NlXiHlZyHOlsSUvVuWJjI252OvVCDHe6yPr/zDOgy5f/VCHX7HTp2ySMVflGnmqeTZ3JWZcKl3oKcdKc8+zs7lmKt+1FuQ8VMoFOWdl3CntBe3EpuXck3O+EefckPFMxo8S///5329KfeDEvcP293vRMxsAeZo2099FT4bsuisMMTMydvcn4ndlagFchtaWJyIiIiJCgeEXVgmjOHcsuq0AAAAASUVORK5CYII=" alt="javascript">
+                        </div>
+                        <h3 class="service__title">Pertemuan 3<br> JavaScript</h3>
+                        <a href="https://drive.google.com/file/d/1pCd3vv2V6ECYv6lQK1JoWaMBF9-_wwhm/view" target="_blank" class="service__link">Selanjutnya >></a>
+                    </div>
+                     <!--= service card 4 =-->
+                     <div class="service__card">
+                        <div class="service__icon">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADIklEQVR4nO1YS2gUQRB9fqLi/4viD/wFD4KoB096UxHBz0EQgiIoetJco3dRiQoiCF4EEyLi1ZMIgiZEJTHE6EEQBcEkikm2apP4ITFPumeymWx2d2ayk00O/aBhma15Xa+6qqa7AQcHBwcHBwcHh6kJciaU5UjzGISXoXwIYQOUrVB+hrIbwr92mN/es1YI66Gss++Yd5VbQM4orfO9XAnlKSgfQylQMqHRD+UzKCvRzXUT4zw5G8rTUDYn6HjYaLIBI2cVL6CHi+zyCztKKICjhplbeAldXDg+ESYawu9FOHA+UEf9CQjqhLAiuoAfnA/lo6InTnGnv6rbE16lOnRyXmERaS73c7PY6P0CWeZznp2AdHsN4dLcIsg5EDYmNFFjIEXvJS5E7Rz11ucxEN4MzdHcAShDmluhvAPhkG97O8+Kr0CKOyCsic2pOX2qHv2i+SAJB0Oi8DRfRo4JRlhRktOh/BKLU3MKGYRwU9D4VoSlvB6wb/Of/bFLLFxin3tRNPblfoB2BzgUysOB4DXF5GQev24EhXyIIKQiUEsDWf8dsP/1czWUKZDTfN4LWTwXA0K+xuBkAb/aRoQo+0KF9HKb79yuLKKBTAcR7rfbjJEAebUwPNLcY5/3cVVMThYYvdGFCH/bD5u31Gcy+an8NKoezKZReSUg5OMo59o51+c4GpOT0YQI34cYNyMMwuMQ/rNOGqS4OKvjvA04dzUWpxb07V2c1nt/zCQ/uQApboDyIIQPMk73c43PuS+L525AyPNYnFrQt0ALFm4Oab+V1s4UsSnmMPJoo3hOsbW0MXsZq/O+kOZea9PD9QmJSIrz2th89FpgQx7lXk9XHkpMSLGcwpf2nJQTymVQvknM2YkawsZMIPLCbJHDW95kiqjNtPFIML3cbOqmjoAOCE9gXDDHS3PMFLZPooBvEFaN/6gbhLkAUJ609ROltxfv/BCEr2xWDB/QEoc5U3hf3JqEr4P6IHwC4Tl0cS1KCnOpZj6maR7xU7AWwhdQttjLOGFX5oLO/PYu6FqsjWdbZbf2hqPkF3QODg4ODg4ODg6IiP8MvCuw2zVJtQAAAABJRU5ErkJggg==" alt="php-logo">
+                        </div>
+                        <h3 class="service__title">Pertemuan 4<br> Pengenalan PHP</h3>
+                        <a href="https://drive.google.com/file/d/13LEoy9zKfuDmrOxBeZB0-iFh4UNVby_C/view" target="_blank" class="service__link">Selanjutnya >></a>
+                    </div>
+                     <!--= service card 5 =-->
+                     <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-flow-chart"></i>
+                        </div>
+                        <h3 class="service__title">Pertemuan 5<br> Mengontrol Alur Program</h3>
+                        <a href="https://drive.google.com/file/d/13dUQ_DG4qpCFTltzz2JvpEL-Ews2uNjY/view" target="_blank" class="service__link">Selanjutnya >></a>
+                    </div>
+                     <!--= service card 6 =-->
+                     <div class="service__card">
+                        <div class="service__icon">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD1UlEQVR4nO2Z24scVRDGPyNu4g1FfNLERJF4QRTxhib6ouCDIAQSH6LGB5WIYIJIiAbE+CrekYAaDUTjg/4PghfUt0XF6ypRSZTFzXSd1hV3Mfnp6ekM3We6e3om09MJ+MGwsFSf83WdqjpfVUv/40TE75ypDlcp5hYZtylmrWIuV8TZOm4wyxmKWC9jrxw/yDgiB30/44iM72S8JeMuwamTJ9thpYwX5IgLSQ7+OTl26RArJkX4ynTTUcgSnMDfycv/xunNkjaeKCHxuRyvybFVjntkbEj/PiLjdTmmS8PHMSPHjc2Rjrhaxl+pp36VsSMJlzrocIEc22QcKPD6ohz3jkYKlijmMsXcLMedcmxKvbdTjksSm3nOV8wawdIR95iSY0tfTnRP4tFhFztFxscVMbhB48QhVvTt1600d9dfxLi+MnFiHtC4AUvTkplP0Nox7i8BY7aC+GNjJ+0BJ8vxTkD8+149HxiGcyyX8WkJ6afVFEhC87OA+JsyvkiTtGLvec7rVYf+mH6xMdIxa2Q8X3GrLiQJXAjjpYpE3NMIYeM6GYcHXEYzxQ/72HFEGZK+Dn/VeHgYm2vcnpuLH45ZFxg+qT+4Qo535Xg5EUhNIOZcGV9XkP6lKjT25IwjVmlSgKnU4z8VePnh8gezb2t8qTZAj/zPKY8D5SXPC/hsMhi71SZIyD+UiK5SxFwaHMuQGqANxKwN4miI+78hGBfLcV8i0EoMbg90xjq1iTmW91SglxYdziq+kfKe3qg2YWwMwvWmsjYqa7RVbcLYHvBZPbh6OF5VmzB25zT2QU4rNuz2akdJT6tNWEY+GN+UGzr25d7O93RtIGJVTu15iVphvD5Ixu1qA8aO+m2enz845jPGFVdoQ4BlMg5mSLvBEynHK0HWbpkU3wTdzj+7/y7V7JAXcm86qdjusDI3VvBtVm2lGXYvxgflenasAunD0ds7L/Yd+4MF9iaDnGYInyTH233t1dAzvu6MeTFYaF/SNY+X8FSu1B4NCy8rRkLM/QVdxCeVcea91p1ZP5e0aoPr8UfB+r4+b9IxoTswzLf1xlyiv0MYF8nxfsZutrBkwrJEr4cj4+4+2zQWeI/3h8rODIkl6UDxz4DEYRnn9OwiLpTxVMnUdOHYPRzCcYMcP6Yb/KOIW9P/r+474qx+MR6X8YaMbyu67ZnRY7hOVfFXqnFNJuunK8jU+RLwzOS/wXhx7j0/HGGT8WwygmsNnkC1RxfTQaLXyHdMXM8Uwh9vGLPdYeK1ScxzPJAsgh+CZ8PEzyxOCEQ8mHzkdLzX2Nzvv33+BdXBQ4MKsD2PAAAAAElFTkSuQmCC" alt="circular-arrows--v1">
+                        </div>
+                        <h3 class="service__title">Pertemuan 6<br> Perulangan</h3>
+                        <a href="https://drive.google.com/file/d/1bZCTi-EXzLuUg3Ec6RPpRUm8mldgX0cd/view" target="_blank" class="service__link">Selanjutnya >></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="d-grid contact__wrapper">
+                <div class="contact__content">
+                    <h2 class="contact__title">Hubungi Saya! Mari Bekerja Sama.</h2>
+                    <p class="contact__description">
+                        Ada pertanyaan? Hubungi saya melalui formulir kontak ini dan saya akan segera menghubungi Anda kembali.
+                    </p>
+                </div>
+                <div class="contact__form-wrapper">
+                    <form id="contactForm" class="contact__form">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                    <p id="formMessage" class="form-message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--======== footer =====-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__title">Ikuti</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Email</h4>
+                    <a href="#" class="footer__contact">2310631170027@student.unsika.ac.id</a>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Hubungi</h4>
+                    <a href="#" class="footer__contact">+62 856 5965 0179</a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
